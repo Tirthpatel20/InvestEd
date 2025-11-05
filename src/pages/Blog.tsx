@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Calendar, User } from 'lucide-react';
 
-const posts = [
+const posts = [ 
   {
     title: '10 Essential Investment Strategies for 2024',
     excerpt: 'Discover the top investment strategies that successful investors are using this year to maximize returns and minimize risk.',

@@ -106,7 +106,7 @@ const Contact = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               className="space-y-6"
-            >
+            > 
               <h2 className="text-3xl font-bold mb-6">Contact Information</h2>
               
               <Card className="hover:shadow-card transition-all duration-300 dark:hover:shadow-golden">

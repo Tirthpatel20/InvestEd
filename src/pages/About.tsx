@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Target, Award, Users, Heart } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
-const values = [
+const values = [ 
   {
     icon: Target,
     title: 'Our Mission',

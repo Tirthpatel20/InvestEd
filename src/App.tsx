@@ -35,13 +35,13 @@ const App = () => (
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
-            </main>
+            </main> 
             <Footer />
           </div>
         </BrowserRouter>
       </TooltipProvider>
     </ThemeProvider>
-  </QueryClientProvider>
+  </QueryClientProvider> 
 );
 
 export default App;
