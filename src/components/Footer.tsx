@@ -9,9 +9,9 @@ export const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-                <span className="text-white font-bold text-xl">IP</span>
+                <span className="text-white font-bold text-xl">IEd</span>
               </div>
-              <span className="font-bold text-xl">InvestPro</span>
+              <span className="font-bold text-xl">InvestEd</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Empowering investors with education, advisory services, and a supportive community.
@@ -59,7 +59,7 @@ export const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} InvestPro. All rights reserved.
+            © {new Date().getFullYear()} InvestEd. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground mt-2">
             Investments carry risk. Please read our disclaimer carefully.

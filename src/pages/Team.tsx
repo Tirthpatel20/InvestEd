@@ -3,48 +3,48 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Linkedin, Mail } from 'lucide-react';
 
 const team = [
-  {
-    name: 'David Anderson',
-    role: 'CEO & Founder',
-    credentials: 'CFA, MBA',
-    bio: 'Former hedge fund manager with 20+ years of experience in portfolio management and investment strategy.',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop',
-  },
-  {
-    name: 'Jennifer Liu',
-    role: 'Chief Investment Officer',
-    credentials: 'CFP, CPA',
-    bio: 'Expert in wealth management and financial planning, helping clients achieve their long-term financial goals.',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop',
-  },
-  {
-    name: 'Marcus Thompson',
-    role: 'Head of Education',
-    credentials: 'PhD Finance',
-    bio: 'Former professor with a passion for making complex financial concepts accessible to everyone.',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
-  },
-  {
-    name: 'Sarah Martinez',
-    role: 'Senior Advisor',
-    credentials: 'CFA, CAIA',
-    bio: 'Specializes in alternative investments and portfolio diversification strategies.',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop',
-  },
-  {
-    name: 'Robert Kim',
-    role: 'Technical Analyst',
-    credentials: 'CMT',
-    bio: 'Expert in market analysis and trading strategies with a focus on risk management.',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop',
-  },
-  {
-    name: 'Emily Watson',
-    role: 'Community Manager',
-    credentials: 'MBA',
-    bio: 'Dedicated to building and nurturing our vibrant community of investors and learners.',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
-  },
+  // {
+  //   name: 'David Anderson',
+  //   role: 'CEO & Founder',
+  //   credentials: 'CFA, MBA',
+  //   bio: 'Former hedge fund manager with 20+ years of experience in portfolio management and investment strategy.',
+  //   image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop',
+  // },
+  // {
+  //   name: 'Jennifer Liu',
+  //   role: 'Chief Investment Officer',
+  //   credentials: 'CFP, CPA',
+  //   bio: 'Expert in wealth management and financial planning, helping clients achieve their long-term financial goals.',
+  //   image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop',
+  // },
+  // {
+  //   name: 'Marcus Thompson',
+  //   role: 'Head of Education',
+  //   credentials: 'PhD Finance',
+  //   bio: 'Former professor with a passion for making complex financial concepts accessible to everyone.',
+  //   image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+  // },
+  // {
+  //   name: 'Sarah Martinez',
+  //   role: 'Senior Advisor',
+  //   credentials: 'CFA, CAIA',
+  //   bio: 'Specializes in alternative investments and portfolio diversification strategies.',
+  //   image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop',
+  // },
+  // {
+  //   name: 'Robert Kim',
+  //   role: 'Technical Analyst',
+  //   credentials: 'CMT',
+  //   bio: 'Expert in market analysis and trading strategies with a focus on risk management.',
+  //   image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop',
+  // },
+  // {
+  //   name: 'Emily Watson',
+  //   role: 'Community Manager',
+  //   credentials: 'MBA',
+  //   bio: 'Dedicated to building and nurturing our vibrant community of investors and learners.',
+  //   image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+  // },
 ];
 
 const Team = () => {

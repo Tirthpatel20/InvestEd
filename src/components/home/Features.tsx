@@ -50,9 +50,9 @@ export const Features = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose InvestPro?</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose InvestEd?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We combine education, personalized guidance, and community support to help you achieve financial freedom
+            We combine personalized guidance, and community support to help you achieve financial freedom
           </p>
         </motion.div>
 

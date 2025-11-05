@@ -1,52 +1,69 @@
-import { motion } from 'framer-motion';
-import { Check } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
+import { Check } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const plans = [
   {
-    name: 'Starter',
-    price: '$49',
-    period: '/month',
-    description: 'Perfect for beginners starting their investment journey',
+    name: "Starter",
+    price: "₹999",
+    period: " 3 months",
+    description: "Perfect for beginners starting their investment journey",
     features: [
-      'Access to basic courses',
-      'Monthly newsletter',
-      'Community forum access',
-      'Investment guides & resources',
-      'Email support',
+      "Monthly returns: 2% on invested capital",
+      "Total returns: 6% on invested capital",
+      "Monthly interest payouts (Optional)",
+      "Minimum investment: ₹30,000",
+      "Email support",
     ],
     popular: false,
   },
   {
-    name: 'Professional',
-    price: '$149',
-    period: '/month',
-    description: 'Ideal for serious investors seeking expert guidance',
+    name: "Professional",
+    price: "₹1,699",
+    period: " 6 months",
+    description: "Short-term investment with flexible capital options",
     features: [
-      'All Starter features',
-      'Advanced courses & webinars',
-      'Quarterly 1-on-1 consultations',
-      'Custom portfolio review',
-      'Priority support',
-      'Exclusive market insights',
+      "Monthly returns: 2.25% on invested capital",
+      "Total returns: 13.5% on invested capital",
+      "Monthly interest payouts (Optional)",
+      "Minimum investment: ₹70,000",
+      "Email support",
     ],
     popular: true,
   },
   {
-    name: 'Enterprise',
-    price: '$499',
-    period: '/month',
-    description: 'Comprehensive support for businesses and high-net-worth individuals',
+    name: "Enterprise",
+    price: "₹3,499",
+    period: " 9 months",
+    description: "Medium-term growth with better profit sharing",
     features: [
-      'All Professional features',
-      'Monthly 1-on-1 strategy sessions',
-      'Dedicated account manager',
-      'Custom investment strategies',
-      'Tax optimization guidance',
-      'Corporate training programs',
-      '24/7 priority support',
+      "Monthly returns: 2.5% on invested capital",
+      "Total returns: 22.5% on invested capital",
+      "Monthly interest payouts (Optional)",
+      "Minimum investment: ₹70,000",
+      "24/7 priority support",
+    ],
+    popular: false,
+  },
+  {
+    name: "Enterprise",
+    price: "₹4,999",
+    period: " 12 months",
+    description: "Long-term wealth building with maximum returns",
+    features: [
+       "Monthly returns: 3% on invested capital",
+      "Total returns: 36% on invested capital",
+      "Monthly interest payouts (Optional)",
+      "Minimum investment: ₹70,000",
+      "Email support",
     ],
     popular: false,
   },
@@ -62,7 +79,9 @@ const Plans = () => {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-3xl mx-auto text-center"
           >
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Investment Plans</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+              Investment Plans
+            </h1>
             <p className="text-xl text-white/90">
               Choose the perfect plan to accelerate your financial growth
             </p>
@@ -72,7 +91,7 @@ const Plans = () => {
 
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 max-w-7xl mx-auto">
             {plans.map((plan, index) => (
               <motion.div
                 key={index}
@@ -91,7 +110,7 @@ const Plans = () => {
                 )}
                 <Card
                   className={`h-full hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 dark:hover:shadow-golden ${
-                    plan.popular ? 'border-primary shadow-card' : ''
+                    plan.popular ? "border-primary shadow-card" : ""
                   }`}
                 >
                   <CardHeader>
@@ -99,14 +118,16 @@ const Plans = () => {
                     <CardDescription>{plan.description}</CardDescription>
                     <div className="mt-4">
                       <span className="text-4xl font-bold">{plan.price}</span>
-                      <span className="text-muted-foreground">{plan.period}</span>
+                      <span className="text-muted-foreground">
+                        {plan.period}
+                      </span>
                     </div>
                   </CardHeader>
-                  <CardContent className="space-y-6">
+                  <CardContent className="flex flex-col justify-between h-[350px]">
                     <ul className="space-y-3">
                       {plan.features.map((feature, i) => (
                         <li key={i} className="flex items-start">
-                          <Check className="h-5 w-5 text-secondary mr-2 mt-0.5 flex-shrink-0" />
+                          <Check className="h-15 w-5 text-secondary mr-2 mt-0.5 flex-shrink-0" />
                           <span className="text-sm">{feature}</span>
                         </li>
                       ))}
@@ -114,7 +135,7 @@ const Plans = () => {
                     <Link to="/contact">
                       <Button
                         className="w-full"
-                        variant={plan.popular ? 'default' : 'outline'}
+                        variant={plan.popular ? "default" : "outline"}
                       >
                         Get Started
                       </Button>
@@ -135,7 +156,8 @@ const Plans = () => {
               All plans include a 30-day money-back guarantee. Cancel anytime.
             </p>
             <p className="text-sm text-muted-foreground">
-              * Investments carry risk. Returns are not guaranteed. Please read our full disclaimer.
+              * Investments carry risk. Returns are not guaranteed. Please read
+              our full disclaimer.
             </p>
           </motion.div>
         </div>

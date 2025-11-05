@@ -37,7 +37,7 @@ const About = () => {
           >
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Story</h1>
             <p className="text-xl text-white/90">
-              Founded with a vision to make investing accessible to everyone, InvestPro has grown into a trusted platform serving thousands of investors worldwide.
+              Founded with a vision to make investing accessible to everyone, InvestEd has grown into a trusted platform serving thousands of investors worldwide.
             </p>
           </motion.div>
         </div>
@@ -54,13 +54,13 @@ const About = () => {
             >
               <h2 className="text-3xl font-bold mb-6">Why We Exist</h2>
               <p className="text-muted-foreground mb-6">
-                We started InvestPro because we saw too many people missing out on financial opportunities due to lack of education and guidance. The world of investing can be intimidating, filled with jargon and complex strategies that seem out of reach for the average person.
+                We started InvestEd because we saw too many people missing out on financial opportunities due to lack of education and guidance. The world of investing can be intimidating, filled with jargon and complex strategies that seem out of reach for the average person.
               </p>
               <p className="text-muted-foreground mb-6">
                 Our founders, experienced investors and educators, came together with a simple goal: break down the barriers to successful investing. We wanted to create a platform where anyone—from students to busy professionals to business owners—could learn, grow, and thrive financially.
               </p>
               <p className="text-muted-foreground">
-                Today, InvestPro is more than a platform. It's a community of learners, achievers, and wealth builders who support each other on their financial journeys.
+                Today, InvestEd is more than a platform. It's a community of learners, achievers, and wealth builders who support each other on their financial journeys.
               </p>
             </motion.div>
           </div>

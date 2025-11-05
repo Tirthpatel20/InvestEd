@@ -46,7 +46,7 @@ export const Hero = () => {
               </Button>
             </Link>
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg">
+              <Button size="lg" variant="outline" className="border-white text-primary hover:bg-white/10 text-lg">
                 Join Community
               </Button>
             </Link>
