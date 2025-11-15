@@ -152,9 +152,6 @@ const Plans = () => {
             viewport={{ once: true }}
             className="mt-16 text-center max-w-2xl mx-auto"
           >
-            <p className="text-muted-foreground mb-4">
-              All plans include a 30-day money-back guarantee. Cancel anytime.
-            </p>
             <p className="text-sm text-muted-foreground">
               * Investments carry risk. Returns are not guaranteed. Please read
               our full disclaimer.
