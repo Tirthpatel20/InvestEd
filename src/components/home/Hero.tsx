@@ -15,7 +15,7 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center text-white"
         >
-          <motion.div
+          {/* <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ delay: 0.2, type: "spring" }}
@@ -23,7 +23,7 @@ export const Hero = () => {
           >
             <TrendingUp className="h-5 w-5" />
             <span className="text-sm font-medium">Trusted by 10,000+ Investors</span>
-          </motion.div>
+          </motion.div> */}
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             Make Profits. Invest. Grow.
@@ -52,25 +52,25 @@ export const Hero = () => {
             </Link>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
             className="mt-12 flex flex-wrap justify-center gap-8 text-white/80"
           >
             <div className="text-center">
-              <div className="text-3xl font-bold">10K+</div>
-              <div className="text-sm">Active Learners</div>
+              <div className="text-3xl font-bold">1K+</div>
+              <div className="text-sm">Active Investor</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold">500+</div>
-              <div className="text-sm">Expert Sessions</div>
+              <div className="text-sm">Experts</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold">95%</div>
+              <div className="text-3xl font-bold">100%</div>
               <div className="text-sm">Success Rate</div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
     </section>
